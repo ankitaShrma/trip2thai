@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1"  android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Map" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Thai Info" />
+
+        <item
+            android:id="@+id/nav_navg"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Destinations" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+
+
+        </group>
+
+
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    <group android:id="@+id/grp2"  android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About" />
+
+    </group>
+
+
+
+</menu>
